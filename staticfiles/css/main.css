@@ -15,14 +15,15 @@ body {
 }
 
 ul {
-padding-left: 0px;
+padding-left: 0 !important;
 list-style-type: none;
 }
 
-.social-links ul, li {
+.social-links {
     list-style-type: none;
-    display: inline-blstatuock;
-    padding-left: 0px;
+    display: inline-flex;
+    padding-left: 0;
+    padding: 0;
 }
 
 .social {
